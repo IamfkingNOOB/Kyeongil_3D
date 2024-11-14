@@ -1,0 +1,31 @@
+<Valkyrie>
+	<dataCategory>
+		<data ID="410" CharacterName="라이덴 메이" SuitName="번개의 율자" Type="이능" HP="1603" SP="255" ATK="668" DEF="256" CRT="48" ResourceName="Mei_C5" />
+		<data ID="430" CharacterName="로잘리아 · 아린" SuitName="열광 템포" Type="이능" HP="1871" SP="204" ATK="668" DEF="160" CRT="56" ResourceName="Twins_C2" />
+		<data ID="450" CharacterName="아스카" SuitName="내일을 향한 기도" Type="생물" HP="2138" SP="224" ATK="601" DEF="224" CRT="64" ResourceName="Asuka_C1" />
+		<data ID="460" CharacterName="후카" SuitName="의식의 율자" Type="생물" HP="1871" SP="255" ATK="668" DEF="192" CRT="64" ResourceName="Fuka_C6" />
+		<data ID="490" CharacterName="피슬" SuitName="단죄의 황녀!!" Type="생물" HP="1871" SP="255" ATK="534" DEF="224" CRT="48" ResourceName="Fischl_C1" />
+		<data ID="500" CharacterName="키아나 · 카스라나" SuitName="신염의 율자" Type="이능" HP="2673" SP="153" ATK="668" DEF="224" CRT="40" ResourceName="Kiana_C6" />
+		<data ID="520" CharacterName="뫼비우스" SuitName="무한 · 우로보로스" Type="기계" HP="2138" SP="204" ATK="668" DEF="224" CRT="81" ResourceName="Mobius_C1" />
+		<data ID="530" CharacterName="캐롤 · 페퍼" SuitName="매콤달콤 소녀" Type="기계" HP="2138" SP="204" ATK="601" DEF="224" CRT="81" ResourceName="Carol_C3" />
+		<data ID="550" CharacterName="듀란달" SuitName="천원기사" Type="허수" HP="1871" SP="204" ATK="668" DEF="224" CRT="56" ResourceName="Durandal_C4" />
+		<data ID="551" CharacterName="리타 · 로스바이세" SuitName="성극요란" Type="기계" HP="2138" SP="204" ATK="668" DEF="224" CRT="32" ResourceName="Rita_C6" />
+		<data ID="560" CharacterName="파르도 필리스" SuitName="환몽 · 꿈꾸는 고양이" Type="허수" HP="2138" SP="255" ATK="534" DEF="256" CRT="97" ResourceName="Pardofelis_C1" />
+		<data ID="570" CharacterName="아포니아" SuitName="계율 · 죄의 심연" Type="생물" HP="2138" SP="204" ATK="668" DEF="224" CRT="81" ResourceName="Aponia_C1" />
+		<data ID="571" CharacterName="에덴" SuitName="황금 · 찬란한 노래" Type="허수" HP="2138" SP="255" ATK="534" DEF="224" CRT="31" ResourceName="Eden_C1" />
+		<data ID="590" CharacterName="빌브이" SuitName="나선 · 환상의 상자" Type="양자" HP="2405" SP="204" ATK="668" DEF="224" CRT="56" ResourceName="Vill_V_C1" />
+		<data ID="600" CharacterName="엘리시아" SuitName="진아 · 인간의 율자" Type="이능" HP="2138" SP="255" ATK="668" DEF="224" CRT="56" ResourceName="Elysia_C2" />
+		<data ID="610" CharacterName="이 소상" SuitName="옥기사 · 월흔" Type="이능" HP="1871" SP="306" ATK="601" DEF="256" CRT="32" ResourceName="Lisushang_C2" />
+		<data ID="620" CharacterName="아이 · 히페리온" SuitName="시간의 인도자" Type="기계" HP="2138" SP="204" ATK="534" DEF="256" CRT="32" ResourceName="AI_C1" />
+		<data ID="630" CharacterName="브로냐 · 자이칙" SuitName="진리의 율자" Type="허수" HP="1871" SP="255" ATK="668" DEF="224" CRT="40" ResourceName="Bronya_C12" />
+		<data ID="650" CharacterName="수잔나" SuitName="발키리 · 열정의 사막" Type="양자" HP="2138" SP="255" ATK="601" DEF="256" CRT="32" ResourceName="Susannah_C1" />
+		<data ID="660" CharacterName="미스텔 · 샤니아트" SuitName="드림위버" Type="기계" HP="1871" SP="204" ATK="668" DEF="224" CRT="56" ResourceName="FeatheredRabbit_C1" />
+		<data ID="661" CharacterName="프로메테우스" SuitName="터미널 에이드 0017" Type="허수" HP="2138" SP="184" ATK="534" DEF="256" CRT="32" ResourceName="Prometheus_C1" />
+		<data ID="670" CharacterName="시구레 키라" SuitName="슈가스타" Type="기계" HP="2138" SP="255" ATK="534" DEF="256" CRT="32" ResourceName="ShigureKira_C1" />
+		<data ID="680" CharacterName="제레 · 발레리" SuitName="죽음과 생명의 율자" Type="이능" HP="2405" SP="179" ATK="668" DEF="256" CRT="64" ResourceName="Seele_C4" />
+		<data ID="690" CharacterName="시린" SuitName="미라클 ☆ 마법소녀" Type="기계" HP="2138" SP="204" ATK="668" DEF="256" CRT="32" ResourceName="Sirin_C1" />
+		<data ID="700" CharacterName="테레사 · 아포칼립스" SuitName="월하의 서약 · 핏빛 사랑" Type="이능" HP="2405" SP="204" ATK="668" DEF="256" CRT="40" ResourceName="Theresa_C7" />
+		<data ID="710" CharacterName="그리세오" SuitName="천행 · 우주를 그리는 별" Type="성진" HP="2138" SP="204" ATK="534" DEF="224" CRT="75" ResourceName="Griseo_C2" />
+		<data ID="720" CharacterName="후카" SuitName="부생 · 도진의 날개" Type="생물" HP="4490" SP="204" ATK="668" DEF="192" CRT="64" ResourceName="Fuka_C7" />
+	</dataCategory>
+</Valkyrie>

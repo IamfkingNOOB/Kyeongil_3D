@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using DataSystems;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
@@ -6,5 +8,8 @@ public class TestScript : MonoBehaviour
 	private void Start()
 	{
 		Debug.Log("TestScript Start()");
+
+		// DataManager 테스트
+		DataManager.Instance.ValkyrieDictionary.GetValueOrDefault(410);
 	}
 }

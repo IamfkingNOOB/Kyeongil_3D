@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5704218705186025958}
   - component: {fileID: 3538038211190297716}
   m_Layer: 0
-  m_Name: Fuka_C7
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7a7a28fa5c77b794baa08c176f55187b, type: 2}
+  - {fileID: 2100000, guid: 9fb9076ac1efb1d42896f9e2f9b1363b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -170,7 +170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7a7a28fa5c77b794baa08c176f55187b, type: 2}
+  - {fileID: 2100000, guid: 9fb9076ac1efb1d42896f9e2f9b1363b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 56a07ce15be3a814097459c79a81f084
+  m_SerializeEntries:
+  - m_GUID: 93ea87537b39f9f4aa01f66dd1f768ee
+    m_Address: Avatars/Fuka_C7/Model
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Avatar
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6718830411e21946908f537b756d9b9
+    m_Address: Avatars/Griseo_C2/Model
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Avatar
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 915f6ecdd5905b0439c66f052fde7de2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 932499b13c663d349955efcb083e02dc, type: 2}
+    - {fileID: 11400000, guid: fd1e8d868e13d6947812d4a0875d5a58, type: 2}

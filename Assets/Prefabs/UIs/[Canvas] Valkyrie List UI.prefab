@@ -2681,6 +2681,7 @@ GameObject:
   - component: {fileID: 4827793279826433124}
   - component: {fileID: 2292334923314099947}
   - component: {fileID: 1602080028757834843}
+  - component: {fileID: 5334621881560209766}
   m_Layer: 0
   m_Name: '[Canvas] Valkyrie List UI'
   m_TagString: Untagged
@@ -2775,3 +2776,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5334621881560209766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8742171354099956321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391c94225a380ba4a8edbd9c37ca2542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 2854923297759134700}
+  listItem: {fileID: 1964523912837798715, guid: eb54124781556e040874aa5eba30d7e6, type: 3}

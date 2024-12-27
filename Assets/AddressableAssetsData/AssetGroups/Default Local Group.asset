@@ -17,8 +17,20 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 56a07ce15be3a814097459c79a81f084
   m_SerializeEntries:
+  - m_GUID: 920f4a2a944938a468bcef4d512488fc
+    m_Address: Avatars/Griseo_C2/Portrait
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Avatar
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 93ea87537b39f9f4aa01f66dd1f768ee
     m_Address: Avatars/Fuka_C7/Model
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Avatar
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c49ddfac7d02a1e4699393b480f12634
+    m_Address: Avatars/Fuka_C7/Portrait
     m_ReadOnly: 0
     m_SerializedLabels:
     - Avatar

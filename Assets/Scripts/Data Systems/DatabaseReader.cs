@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
@@ -45,6 +46,7 @@ namespace DataSystems
 						CharacterName = characterName,
 						SuitName = suitName,
 						Type = type,
+						TypeEnum = ConvertTypeToEnum(type),
 						HP = hp,
 						SP = sp,
 						ATK = atk,
@@ -60,6 +62,39 @@ namespace DataSystems
 			}
 			
 			return valkyrieDictionary; // 작업이 완료된 사전을 반환합니다.
+		}
+		
+		// [함수] 속성을 문자열에서 열거형으로 변환합니다.
+		private EntityType ConvertTypeToEnum(string typeName)
+		{
+			EntityType typeEnum;
+			
+			switch (typeName)
+			{
+				case "기계":
+					typeEnum = EntityType.Mecha;
+					break;
+				case "생물":
+					typeEnum = EntityType.Biology;
+					break;
+				case "이능":
+					typeEnum = EntityType.Psychic;
+					break;
+				case "양자":
+					typeEnum = EntityType.Quantum;
+					break;
+				case "허수":
+					typeEnum = EntityType.Imaginary;
+					break;
+				case "성진":
+					typeEnum = EntityType.Stardust;
+					break;
+				default:
+					typeEnum = EntityType.None;
+					break;
+			}
+
+			return typeEnum;
 		}
 	}
 }

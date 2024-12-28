@@ -1612,6 +1612,7 @@ GameObject:
   - component: {fileID: 4204284094444536704}
   - component: {fileID: 8003130776114187496}
   - component: {fileID: 2854923297759134700}
+  - component: {fileID: 678407839251579393}
   m_Layer: 0
   m_Name: '[Scroll View] List'
   m_TagString: Untagged
@@ -1707,6 +1708,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &678407839251579393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421290110143250777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391c94225a380ba4a8edbd9c37ca2542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 2854923297759134700}
+  listItem: {fileID: 1964523912837798715, guid: eb54124781556e040874aa5eba30d7e6, type: 3}
+  selectionManager: {fileID: 4129068929216500255}
 --- !u!1 &4498976729768717618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,7 +2697,7 @@ GameObject:
   - component: {fileID: 4827793279826433124}
   - component: {fileID: 2292334923314099947}
   - component: {fileID: 1602080028757834843}
-  - component: {fileID: 5334621881560209766}
+  - component: {fileID: 4129068929216500255}
   m_Layer: 0
   m_Name: '[Canvas] Valkyrie List UI'
   m_TagString: Untagged
@@ -2776,7 +2792,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5334621881560209766
+--- !u!114 &4129068929216500255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2785,8 +2801,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 8742171354099956321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 391c94225a380ba4a8edbd9c37ca2542, type: 3}
+  m_Script: {fileID: 11500000, guid: 71487e45cc7333b47b131a9b64f22b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollRect: {fileID: 2854923297759134700}
-  listItem: {fileID: 1964523912837798715, guid: eb54124781556e040874aa5eba30d7e6, type: 3}
+  characterName: {fileID: 2947799409442503371}
+  typeImage: {fileID: 8190232204125915875}
+  typeText: {fileID: 30512860083883954}
+  suitName: {fileID: 4180287951549463928}
+  hpText: {fileID: 8789479499779751940}
+  spText: {fileID: 2794660177643447082}
+  atkText: {fileID: 2031758627536081686}
+  defText: {fileID: 8847898073257515295}
+  crtText: {fileID: 7742598211859907727}
+  typeSprites:
+  - {fileID: 21300000, guid: 58a526e40c9a7664a9ad6fc8ed1f34a8, type: 3}
+  - {fileID: 21300000, guid: 3bbdf6bddbf7f6e40929fb7fc3a1d509, type: 3}
+  - {fileID: 21300000, guid: 15e4e499f0dac9948a767e2560aa0384, type: 3}
+  - {fileID: 21300000, guid: f8074dbd063bd7e458885df26ec08c16, type: 3}
+  - {fileID: 21300000, guid: 91d2beb1f778a5149acdc6c61f0465ac, type: 3}
+  - {fileID: 0}

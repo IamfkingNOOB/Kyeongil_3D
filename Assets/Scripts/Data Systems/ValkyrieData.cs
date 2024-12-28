@@ -11,6 +11,7 @@ namespace DataSystems
 		public string SuitName { get; init; } // 슈트 이름
 
 		public string Type { get; init; } // 속성
+		public EntityType TypeEnum { get; init; } // 속성(Enum)
 
 		public int HP { get; init; } // 체력
 		public int SP { get; init; } // 기력

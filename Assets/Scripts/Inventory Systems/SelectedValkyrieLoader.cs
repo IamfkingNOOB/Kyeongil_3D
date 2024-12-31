@@ -1,3 +1,4 @@
+using DataSystems;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -16,13 +17,13 @@ namespace InventorySystems
 			DestroyAvatar(); // 비활성화할 때, 아바타를 파괴합니다.
 		}
 		
-		// [함수] 타이틀 발키리의 아바타를 생성합니다.
-		public void InstantiateAvatar(string resourceName)
+		// [함수] 타이틀 발키리의 아바타를 생성합니다. (UnityEvent에 등록)
+		public void InstantiateAvatar(ValkyrieData valkyrie)
 		{
 			DestroyAvatar(); // 우선, 이미 불러온 아바타가 있다면, 그것을 해제합니다.
 			
 			// 타이틀로 지정한 발키리의 아바타 정보를 불러옵니다.
-			string avatarData = $"Avatars/{resourceName}/Model"; // Addressable Name: "Avatars/프리팹_이름/Model.prefab"
+			string avatarData = $"Avatars/{valkyrie.ResourceName}/Model"; // Addressable Name: "Avatars/프리팹_이름/Model.prefab"
 			_avatarAsset = new AssetReference(avatarData); // Addressable로 해당 에셋을 불러옵니다.
 			
 			// 불러온 에셋을 생성합니다.

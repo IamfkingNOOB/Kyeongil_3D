@@ -1,6 +1,7 @@
 using DataSystems;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace InventorySystems
@@ -21,13 +22,13 @@ namespace InventorySystems
 		[SerializeField] private TextMeshProUGUI defText; // 방어력(DEF)
 		[SerializeField] private TextMeshProUGUI crtText; // 회심(CRT)
 		
-		// [변수] 타입의 이미지 목록
+		// [변수] 속성의 이미지 목록
 		[SerializeField] private Sprite[] typeSprites; // 등록 순서는 EntityType의 순서에 따릅니다.
-		
-		// [변수] 발카리의 아바타를 생성하는 클래스
-		[SerializeField] private SelectedValkyrieLoader avatarLoader;
 
-		// [함수] 발키리 목록의 아이템 중 하나가 클릭되었을 때, UI를 갱신합니다.
+		// [변수] 발키리가 선택되었을 때 갱신을 요청할 이벤트
+		[SerializeField] private UnityEvent<ValkyrieData> onValkyrieSelected;
+		
+		// [함수] 발키리 목록의 아이템 중 하나가 선택되었을 때, UI를 갱신합니다.
 		public void UpdateUI(ValkyrieData selectedData)
 		{
 			// UI를 갱신합니다.
@@ -40,9 +41,8 @@ namespace InventorySystems
 			atkText.SetText($"{selectedData.ATK}");
 			defText.SetText($"{selectedData.DEF}");
 			crtText.SetText($"{selectedData.CRT}");
-			
-			// 아바타를 생성합니다.
-			avatarLoader.InstantiateAvatar(selectedData.ResourceName);
+
+			onValkyrieSelected.Invoke(selectedData); // 갱신 이벤트를 호출합니다.
 		}
 	}
 }

@@ -22,6 +22,12 @@ namespace TitleSystems
 		{
 			InstantiateAvatar(); // 활성화할 때, 타이틀 발키리의 아바타를 불러와 생성합니다.
 		}
+
+		// [함수] OnDisable()
+		private void OnDisable()
+		{
+			DestroyAvatar(); // 비활성화할 때, 타이틀 발키리의 아바타를 파괴합니다.
+		}
 		
 		// [함수] 타이틀 발키리의 아바타를 생성합니다.
 		private void InstantiateAvatar()

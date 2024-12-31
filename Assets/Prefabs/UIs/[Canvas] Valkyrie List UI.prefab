@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1200227878905325253}
   - component: {fileID: 8285062210298367446}
   - component: {fileID: 8225787679599449311}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] DEF'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 5587443000527384408}
   - component: {fileID: 7383943224220562761}
   - component: {fileID: 30512860083883954}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] Type'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 5375243831666654127}
   - component: {fileID: 7998509111325051013}
   - component: {fileID: 2794660177643447082}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] SP Value'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 4639408882716008542}
   - component: {fileID: 6840121746592233875}
   - component: {fileID: 4454752188135236855}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] HP'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 3915476713614889237}
   - component: {fileID: 6837896755891008610}
   - component: {fileID: 7742598211859907727}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] CRT Value'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 4606169370347868864}
   - component: {fileID: 7885117794444233508}
   - component: {fileID: 139725143945162027}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 6374489539145401121}
   - component: {fileID: 4602793163243239607}
   - component: {fileID: 2363607484013845192}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] ATK'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 7611006502322035695}
   - component: {fileID: 2515395445244039456}
   - component: {fileID: 1996015825669008875}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Panel] Status'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 720118384417377174}
   - component: {fileID: 8849033018907661064}
   - component: {fileID: 8847898073257515295}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] DEF Value'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 6250492245795550998}
   - component: {fileID: 5575448504122826145}
   - component: {fileID: 8686530363190811607}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 4850340416888630884}
   - component: {fileID: 1928740334245904323}
   - component: {fileID: 5419201900421658278}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Button] Home'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1326,7 +1326,7 @@ GameObject:
   - component: {fileID: 4373458128903913929}
   - component: {fileID: 2838230359375557395}
   - component: {fileID: 6406639410510111940}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,7 +1401,7 @@ GameObject:
   - component: {fileID: 4897599058496084677}
   - component: {fileID: 1686237842284009053}
   - component: {fileID: 5837205326894639046}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 97.5}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -1783, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1686237842284009053
 MonoBehaviour:
@@ -1479,7 +1479,7 @@ GameObject:
   - component: {fileID: 294404522029513627}
   - component: {fileID: 3110105321298995042}
   - component: {fileID: 6265743143685033590}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Button] Back'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1613,7 @@ GameObject:
   - component: {fileID: 8003130776114187496}
   - component: {fileID: 2854923297759134700}
   - component: {fileID: 678407839251579393}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Scroll View] List'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1734,7 +1734,7 @@ GameObject:
   - component: {fileID: 6861045350870503750}
   - component: {fileID: 7804117607922622043}
   - component: {fileID: 2947799409442503371}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] Character Name'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,7 @@ GameObject:
   - component: {fileID: 5116539221432901521}
   - component: {fileID: 1610933741612667335}
   - component: {fileID: 4180287951549463928}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] Suit Name'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2002,7 +2002,7 @@ GameObject:
   - component: {fileID: 5422025742370700716}
   - component: {fileID: 4727826601282120054}
   - component: {fileID: 1562643950030771552}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] SP'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 4955702282037809580}
   - component: {fileID: 7794299412391214416}
   - component: {fileID: 8190232204125915875}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Image] Type'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2211,7 +2211,7 @@ GameObject:
   - component: {fileID: 5525173115794446123}
   - component: {fileID: 7706260800006262143}
   - component: {fileID: 2031758627536081686}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] ATK Value'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 5523318503012762624}
   - component: {fileID: 5483703283108855482}
   - component: {fileID: 8765038068045048735}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] CRT'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2481,7 +2481,7 @@ GameObject:
   - component: {fileID: 6811500542671851228}
   - component: {fileID: 6335326699124952949}
   - component: {fileID: 8789479499779751940}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Text] HP Value'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2617,7 +2617,7 @@ GameObject:
   - component: {fileID: 262669360759251901}
   - component: {fileID: 6572909541496572941}
   - component: {fileID: 1378661467024217694}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Panel] Valkyrie Info'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   - component: {fileID: 2292334923314099947}
   - component: {fileID: 1602080028757834843}
   - component: {fileID: 4129068929216500255}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: '[Canvas] Valkyrie List UI'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2820,3 +2820,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8074dbd063bd7e458885df26ec08c16, type: 3}
   - {fileID: 21300000, guid: 91d2beb1f778a5149acdc6c61f0465ac, type: 3}
   - {fileID: 0}
+  avatarLoader: {fileID: 0}

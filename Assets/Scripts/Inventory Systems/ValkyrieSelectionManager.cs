@@ -27,18 +27,6 @@ namespace InventorySystems
 		// [변수] 발카리의 아바타를 생성하는 클래스
 		[SerializeField] private SelectedValkyrieLoader avatarLoader;
 
-		// [함수] OnEnable()
-		private void OnEnable()
-		{
-			avatarLoader.gameObject.SetActive(true); // 연결되어 있는 게임 오브젝트를 활성화합니다.
-		}
-
-		// [함수] OnDisable()
-		private void OnDisable()
-		{
-			avatarLoader.gameObject.SetActive(false); // 연결되어 있는 게임 오브젝트를 비활성화합니다.
-		}
-		
 		// [함수] 발키리 목록의 아이템 중 하나가 클릭되었을 때, UI를 갱신합니다.
 		public void UpdateUI(ValkyrieData selectedData)
 		{
